@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700);
+
+div {
+     position: absolute;
+     top: 50%;
+     width: 100%;
+}
+
+p {
+     color: #265687;
+     font-family: "Montserrat Alternates", sans-serif;
+     font-size: 80px;
+     font-weight: 400;
+     letter-spacing: -0.05em;
+     text-align: center;
+     text-shadow: 3px 5px 5px rgba(0, 0, 0, .3);
+}
+     
+em {
+     font-style: normal;
+     display: inline-block;
+}
+
+
+:nth-child(1) {
+     
+        color: RED;
+}
+    
+:nth-child(2) {
+          color: ORANGE;
+     }
+
+     :nth-child(3) {
+          color:YELLOW;
+     }
+
+     :nth-child(4) {
+          color: GREEN;
+     }
+
+     :nth-child(5) {   
+          color: BLUE;
+     }
+
+     :nth-child(6) {
+          color: indigo;
+     }
+     
+     :nth-child(7) {
+          color: violet;
+     }
+     :nth-child(7) {
+          color: PURPLE;
+     }
+     :nth-child(7) {
+          color: CYAN;
+     }
+     :nth-child(7) {
+          color: orchid;
+     }
+     :nth-child(7) {
+          color: CYAN;
+     }
+     
+     .bounce-me {
+          -webkit-animation: bounce 4s infinite ease-in-out;
+          animation: bounce 4s infinite ease-in-out;
+     }
+
+
+
+@keyframes bounce {
+     60% {
+          -webkit-transform: translate(0px, -200px) scale(1.2);
+          opacity: 0.8;
+          text-shadow: 0px 150px 20px rgba(0, 0, 0, 0.8);
+     }
+}
